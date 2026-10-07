@@ -6,7 +6,7 @@ export function treatmentUrl(name: string) {
 
 // Presentation suggestions from the clinic brief; confirm before publication.
 export const treatments = [
-  { name: "Estética Facial", description: "Cuidados personalizados para a beleza e o bem-estar da sua pele.", image: "facial" },
+  { name: "Estética Facial", description: "Cuidados personalizados para a beleza e o bem-estar da sua pele.", image: "estheticFacial" },
   { name: "Limpeza de Pele", description: "Um cuidado dedicado à higienização e ao aspecto saudável da pele.", image: "facial" },
   { name: "Rejuvenescimento Facial", description: "Conheça opções de cuidados para uma aparência renovada e harmoniosa.", image: "hero" },
   { name: "Estética Corporal", description: "Cuidados estéticos voltados ao corpo, respeitando seus objetivos individuais.", image: "body" },

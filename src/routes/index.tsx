@@ -10,6 +10,7 @@ import facial from '@/assets/vital-bel-facial.jpg';
 import body from '@/assets/vital-bel-body.jpg';
 import skincare from '@/assets/vital-bel-skincare.jpg';
 import consultation from '@/assets/vital-bel-consultation.jpg';
+import estheticFacial from '@/assets/vital-bel-estetica-facial.jpg';
 
 export const Route = createFileRoute('/')({
   head: () => ({ meta: [
@@ -24,7 +25,7 @@ export const Route = createFileRoute('/')({
 });
 
 const navigation = [['Início','inicio'],['Sobre Nós','sobre'],['Tratamentos','tratamentos'],['Diferenciais','diferenciais'],['Dúvidas','duvidas'],['Contato','contato']];
-const images = { hero, facial, body, skincare, consultation };
+const images = { hero, facial, body, skincare, consultation, estheticFacial };
 const differences = [
   { icon: HandHeart, title: 'Atendimento acolhedor', text: 'Uma experiência pautada no respeito e na atenção às suas necessidades.' },
   { icon: ShieldCheck, title: 'Cuidado individualizado', text: 'Cada pessoa possui características e objetivos que merecem ser considerados.' },

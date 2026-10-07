@@ -9,6 +9,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        clinic: "bg-primary text-primary-foreground hover:bg-secondary rounded-sm shadow-none uppercase text-[10px] font-semibold tracking-[0.06em]",
+        editorial: "border border-primary/30 text-secondary bg-transparent hover:bg-accent rounded-sm shadow-none uppercase text-[10px] font-semibold tracking-[0.06em]",
+        treatment: "text-primary bg-transparent hover:bg-accent rounded-none shadow-none uppercase text-[10px] font-semibold justify-start px-0",
         default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
         destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
         outline:

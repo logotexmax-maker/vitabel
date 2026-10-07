@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '@/components/ui/accordion';
 import { appointmentUrl, treatments, treatmentUrl } from '@/lib/clinic';
 import hero from '@/assets/vital-bel-hero.jpg';
+import heroMobile from '@/assets/vital-bel-hero-mobile.webp';
 import clinic from '@/assets/vital-bel-clinic.jpg';
 import facial from '@/assets/vital-bel-facial.jpg';
 import body from '@/assets/vital-bel-body.jpg';
@@ -60,7 +61,7 @@ function Index() {
     </header>
     <main>
       <section className="hero" id="inicio">
-        <img className="hero-photo" src={hero} width={1536} height={1024} alt="Mulher com beleza natural em um ambiente acolhedor de estética — imagem ilustrativa" fetchPriority="high" />
+        <picture className="hero-photo"><source media="(max-width: 800px)" srcSet={heroMobile} /><img src={hero} width={1536} height={1024} alt="Mulher com beleza natural em um ambiente acolhedor de estética — imagem ilustrativa" fetchPriority="high" /></picture>
         <div className="page-width hero-content">
           <span className="eyebrow">Vital Bel · Clínica de Estética Avançada</span>
           <h1>Sua beleza merece<br />um cuidado<br /><em>extraordinário.</em></h1>
